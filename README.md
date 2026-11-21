@@ -167,37 +167,3 @@ Data disimpan dengan prefiks `lbd_v1_`:
 Pesanan baru menyimpan `sumber` (`kasir`/`online`), `pembeliId`, `pembeliNama`, snapshot harga, dan waktu pembayaran.
 
 Untuk mengosongkan data demo: buka DevTools browser → **Application** → **Local Storage** → hapus kunci berawalan `lbd_v1_`, lalu muat ulang halaman.
-
-## Skenario Pengujian yang Sudah Dapat Dicoba
-
-- [x] Login `pemilik/pemilik`, `kasir/kasir`, dan `pembeli/pembeli` berhasil dengan navigasi sesuai peran.
-- [x] Pembeli tidak dapat membuka dashboard, daftar pesanan kasir, menu, atau laporan.
-- [x] Kasir tidak dapat membuka Menu & Topping atau Laporan Penjualan.
-- [x] Pembeli memilih menu, topping, dan jumlah; total dihitung otomatis.
-- [x] Pembeli harus mengonfirmasi pembayaran QRIS sebelum pesanan dibuat.
-- [x] Pesanan pembeli tersimpan dengan kanal Pickup, pembayaran Lunas, status Diproses, dan `pembeliId` miliknya.
-- [x] Pembeli hanya melihat pesanan miliknya di Pesanan Saya.
-- [x] Kasir melihat pesanan pembeli dan dapat mengubah status menjadi Siap Diambil lalu Selesai.
-- [x] Pembeli melihat status Siap Diambil beserta nomor pickup.
-- [x] Halaman pesanan kasir menampilkan enam menu dengan harga awal.
-- [x] Memilih topping Keju menambah Rp2.000 pada harga item.
-- [x] Menyimpan pesanan kasir kosong ditolak dengan pesan validasi.
-- [x] Pesanan dari kanal GrabFood/GoFood tersimpan dengan penanda kanal.
-- [x] Metode Tunai/QRIS dan nominal pembayaran tersimpan.
-- [x] Status dapat diubah menjadi Siap Diambil atau Selesai.
-- [x] Data tetap ada setelah halaman dimuat ulang pada browser yang sama.
-- [x] Laporan harian/bulanan hanya menghitung transaksi pada periode terpilih.
-- [x] Kanal Pickup muncul pada filter, laporan, dan ekspor CSV.
-- [x] Perubahan harga menu tidak mengubah snapshot transaksi lama.
-
-## Batasan (Sesuai PRD)
-
-- Tidak ada backend, server database, atau sinkronisasi antarperangkat.
-- Local Storage bersifat lokal; menghapus data browser dapat menghapus data aplikasi.
-- Tidak ada integrasi API GoFood, GrabFood, atau QRIS; pembayaran QRIS pembeli hanya simulasi.
-- Tidak ada pengiriman, pelacakan kurir, stok bahan baku, voucher, atau cetak struk.
-- Autentikasi hanya simulasi akademik, bukan pengamanan produksi.
-- Harga menu berasal dari foto papan menu pada PRD dan masih perlu diverifikasi sebelum demo final.
-=======
-# LumpiaBeef-OrderSystem
->>>>>>> a173d5cf8c65133e7035e1f130b3d2ade4d49045
