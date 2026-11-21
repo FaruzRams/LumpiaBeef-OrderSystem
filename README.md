@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lumpia Beef Obami Delima — Sistem Pesanan, Pickup & Kasir
 
 Aplikasi web untuk memesan menu, membayar, memantau pesanan pickup, mencatat pesanan kasir, mengelola menu, dan merekap penjualan Lumpia Beef Obami Delima. Dibuat berdasarkan `PRD_Lumpia_Beef_Obami_Delima.docx` (versi 1.0, 21 November 2026) dengan tambahan alur pembeli.
@@ -197,3 +198,6 @@ Untuk mengosongkan data demo: buka DevTools browser → **Application** → **Lo
 - Tidak ada pengiriman, pelacakan kurir, stok bahan baku, voucher, atau cetak struk.
 - Autentikasi hanya simulasi akademik, bukan pengamanan produksi.
 - Harga menu berasal dari foto papan menu pada PRD dan masih perlu diverifikasi sebelum demo final.
+=======
+# LumpiaBeef-OrderSystem
+>>>>>>> a173d5cf8c65133e7035e1f130b3d2ade4d49045
